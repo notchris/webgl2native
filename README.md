@@ -9,7 +9,7 @@
 
 ## Why?
 
-Because a lot of libraries only have a drawing context as a dependency. If you shim out calls to document and window then you need a browser at all!
+Because a lot of libraries only have a drawing context as a dependency. If you shim out calls to document and window then you don't need a browser at all!
 
 * Is it faster than Electron?
 - Yes, but it would be way faster if I port QT's GL content and pass the pixel dats as a buffer instead of copying the pixels to a QPainter.
